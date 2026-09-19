@@ -1,0 +1,29 @@
+.resturant{
+     color: #02060c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 160px;
+    margin-top: 80px;
+    
+}
+.resturant-chains{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: 45px;
+    margin-right: 200px;
+    
+}
+.one,.two,.three,.four{
+    width: 250px;
+    height: 250px;
+    transition:transform 0.15s ease;
+}
+.resturant-chains img{
+    transition: transform 0.2s ease;
+}
+.resturant-chains img:hover{
+    transform: scale(0.95);
+}
