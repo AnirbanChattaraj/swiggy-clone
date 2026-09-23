@@ -1,0 +1,15 @@
+.online-food-delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 76px;
+   
+}
+.online-food-delivery a img{
+    width: 250px;
+    transition: transform 0.15s ease;
+}
+.online-food-delivery a img:hover{
+    transform: scale(0.95);
+}

@@ -1,0 +1,24 @@
+.place-heading{
+     color: #02060c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left: 15px;
+    margin-top: 20px;
+    
+}
+.places{
+    margin-left: 135px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.food-location{
+    margin: 15px;
+    padding: 1.2rem;
+    font-size:14px;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 205, 205);
+    cursor: pointer;
+}

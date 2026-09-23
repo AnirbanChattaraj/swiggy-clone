@@ -1,0 +1,64 @@
+/* Desktop: default CSS */
+
+
+/* Tablet */
+@media (max-width: 900px) {
+
+    .nav-container {
+          width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    .swiggy-logo {
+         width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    .nav-container ul {
+         width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    .resturant-chains {
+       width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .nav-container {
+         width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    .swiggy-logo {
+         width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    .nav-container ul {
+          width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+
+    .resturant-chains {
+        width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .hero-container{
+         width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+}

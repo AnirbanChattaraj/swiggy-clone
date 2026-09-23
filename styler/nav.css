@@ -10,6 +10,12 @@
     margin-bottom: 8px;
     transition: transform 0.3s ease;
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
 .nav-container{
     display: flex;
     justify-content: space-around;
@@ -18,7 +24,6 @@
     font-weight: 500;
     margin-top: 15px;
     box-shadow: 2px 3px 3px rgba(0, 0,0,0.15);
-   
 }
 .nav-container a{
     text-decoration: none;

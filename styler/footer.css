@@ -1,0 +1,16 @@
+footer{
+    background-color: rgb(218, 212, 212);
+    margin-left: 145px;
+    margin-right: 90px;
+    margin-top: 30px;
+    border-top: 1px solid black;
+    overflow: hidden;
+}
+.footer-heading{
+     color: #02060c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 40px; 
+    overflow: hidden;
+}
