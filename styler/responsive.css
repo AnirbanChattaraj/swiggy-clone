@@ -5,60 +5,82 @@
 @media (max-width: 900px) {
 
     .nav-container {
-          width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+     flex-shrink: 1;
     }
-
-    .swiggy-logo {
-         width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    .hero-container{
+     flex-direction: column;
     }
-
-    .nav-container ul {
-         width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    .resturant-chains{
+     flex-direction: column;
     }
-
-    .resturant-chains {
-       width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    .places{
+     flex-wrap: wrap;
+     
     }
+   .online-food-delivery{
+     flex-wrap: wrap;
+     margin-right: 90px;
+   }
 }
 
 
 /* Mobile */
 @media (max-width: 600px) {
-
-    .nav-container {
-         width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+     .nav-container {
+     flex-direction: column;
+     gap: 15px;
+     align-items: center;
+     justify-content: center;
     }
-
-    .swiggy-logo {
-         width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    .swiggy-logo{
+     margin-left:5px;
     }
-
-    .nav-container ul {
-          width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    .nav-container:hover{
+     border-bottom: 1px solid rgba(186, 88, 32, 0.712);
     }
-
-    .resturant-chains {
-        width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+    .heading{
+     margin-right: 165px;
+     font-size: larger;
     }
     .hero-container{
-         width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+     flex-direction: column;
+     margin-right: 50px;
+    }
+    .resturant{
+     margin-right: 210px;
+    }
+    .resturant-chains{
+     flex-direction: column;
+    }
+    .places{
+    flex-direction: column;
+    margin-left: 110px;
+     
+    }
+    .online{
+     margin-right: 190px;
+    }
+   .online-food-delivery{
+    flex-direction: column;
+     margin-right: 90px;
+   }
+   .footer{
+     margin-right: 90px;
+   }
+}
+@media (min-width: 600px) and (max-width: 900px){
+      .nav-container{
+          gap: 10px;
+      }
+     .heading{
+     margin-left: 315px;
+     font-size: x-large;
+    }
+    .resturant{
+     margin-left: 210px;
+    }
+    .places{
+     margin-left: 110px;
+     flex-wrap: wrap;
     }
 }
